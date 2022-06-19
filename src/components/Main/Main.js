@@ -22,7 +22,6 @@ export default function Main() {
         className={
           "main__body" + (animation.loading ? " main__body_no-visible" : "")
         }
-        className="main__body"
       >
         <Switch>
           <Route
