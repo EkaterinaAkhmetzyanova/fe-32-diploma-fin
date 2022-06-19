@@ -1,0 +1,17 @@
+.payment {
+  background-color: #e5e5e5;
+}
+
+.payment__main {
+  display: flex;
+  justify-content: space-between;
+  padding: 95px 257px 140px 259px;
+}
+
+.payment__left {
+  width: 360px;
+}
+
+.payment__right {
+  width: 960px;
+}

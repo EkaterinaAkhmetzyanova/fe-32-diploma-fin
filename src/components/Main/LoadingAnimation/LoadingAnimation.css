@@ -1,0 +1,23 @@
+.loading-animation {
+  position: relative;
+  background-color: #3e3c41;
+}
+
+.loading-animation__image {
+  display: block;
+  width: 100%;
+  padding: 0 22%;
+}
+
+.loading-animation__text {
+  position: absolute;
+  top: 260px;
+  width: 100%;
+  text-align: center;
+
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color:#928F94;
+}

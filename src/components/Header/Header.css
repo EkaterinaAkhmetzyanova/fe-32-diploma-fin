@@ -1,0 +1,52 @@
+.header {
+  background-image: url("./header.png");
+  background-size: cover;
+}
+
+.header_run {
+  background-image: url("./header_run.png");
+}
+
+.header_completion {
+  padding-bottom: 677px;
+  background-image: url("./header_completion.png");
+}
+
+.header__top {
+  padding: 14px 0 8px 258px;
+  background-color:rgba(0, 0, 0, 0.6);
+}
+
+.header__top_run {
+  background-color:rgba(41, 41, 41, 0.6);
+}
+
+.header__top_completion {
+  background-color:rgba(41, 41, 41, 0.6);
+}
+
+.header__logo {
+  color: #e5e5e5;
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 900;
+}
+
+.header__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.header__slogan {
+  margin: 415px 0 244px 348px;
+  color: white;
+  font-size: 72px;
+  font-weight: 200;
+  line-height: 84px;
+}
+
+.header__slogan_bold {
+  font-weight: 700;
+}
+

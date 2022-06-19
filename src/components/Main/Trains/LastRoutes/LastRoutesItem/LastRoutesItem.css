@@ -1,0 +1,87 @@
+.last-routes-item {
+  padding: 18px 0 14px 0;
+  border: 1px solid #c4c4c4;
+  background-color: white;
+  box-shadow: 0 2px 2px rgba(62, 60, 65, 0.25);
+}
+
+.last-routes-item:not(:first-child) {
+  margin-top: 17px;
+}
+
+.last-routes-item__city-names {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 18px 0 20px;
+
+  color: #292929;
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+
+.last-routes-item__city-name-from {
+  max-width: 50%;
+}
+
+.last-routes-item__city-name-to {
+  max-width: 50%;
+  text-align: right;
+}
+
+.last-routes-item__station-names {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4px;
+  padding: 0 18px 0 20px;
+
+  color: #928f94;
+  font-size: 16px;
+  line-height: 19px;
+  font-style: normal;
+}
+
+.last-routes-item__station-name-from {
+  max-width: 50%;
+}
+  
+.last-routes-item__station-name-to {
+  max-width: 50%;
+  text-align: right;
+}
+
+.last-routes-item__min-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 30px;
+  padding: 0 12px 0 18px;
+}
+
+.last-routes-item__before-price {
+  margin-left: auto;
+
+  color: #928f94;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+}
+
+.last-routes-item__price {
+  margin-left: 5px;
+
+  color: #ffa800;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+.last-routes-item__after-price { 
+  margin-left: 5px;
+
+  color: #928f94;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: normal; 
+}

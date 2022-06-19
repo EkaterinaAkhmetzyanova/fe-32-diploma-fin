@@ -1,0 +1,116 @@
+.travel-details-passengers__collapsed {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px 0;
+}
+
+.travel-details-passengers__icon {
+  display: block;
+  fill: #ffa800;
+}
+
+.travel-details-passengers__title {
+  margin-left: 17px;
+
+  color: white;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: bold; 
+}
+
+.travel-details-passengers__button {
+  position: relative;
+
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+  border: 2px solid white;
+  border-radius: 5px; 
+}
+
+.travel-details-passengers__button::before {
+  content: "";
+  position: absolute;
+  left: 22%;
+  right: 22%;
+  top: 50%;
+  transform: translateY(-50%);
+
+  border-top: 2px solid white; 
+}
+
+.travel-details-passengers__button::after {
+  content: "";
+  position: absolute;
+  top: 22%;
+  bottom: 22%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  border-left: 2px solid white;
+}
+
+.travel-details-passengers__button:hover {
+  border-color: #fcdc9d;
+}
+
+.travel-details-passengers__button:hover::before {
+  border-color: #fcdc9d;  
+}
+
+.travel-details-passengers__button:hover::after {
+  border-color: #fcdc9d;  
+}
+
+.travel-details-passengers__button_minus {
+  border-color: #c4c4c4;  
+}
+
+.travel-details-passengers__button_minus::before {
+  border-color: #c4c4c4;  
+}
+
+.travel-details-passengers__button_minus::after {
+  display: none;  
+}
+
+.travel-details-passengers__full {
+  padding: 17px 0 47px 0;
+}
+
+.travel-details-passengers__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.travel-details-passengers__item:not(:first-child) {
+  margin-top: 10px;
+}
+
+.travel-details-passengers__count {
+  color: #e5e5e5;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: normal;
+}
+
+.travel-details-passengers__price {
+  margin-left: auto;
+
+  color: white;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: bold;
+}
+
+.travel-details-passengers__currency {
+  margin-left: 0.3em;
+
+  color: #928f94;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: normal;
+}

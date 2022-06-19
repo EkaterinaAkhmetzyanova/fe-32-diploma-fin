@@ -1,0 +1,20 @@
+.option-icons {
+  display: flex;
+  align-items: center;
+}
+
+.option-icons__container:not(:first-child) {
+  margin-left: 16px; 
+}
+
+.option-icons__icon {
+  display: block;
+}
+
+.option-icons__icon_light {
+  fill: #e5e5e5;
+}
+
+.option-icons__icon_dark {
+  fill: #c4c4c4;
+}

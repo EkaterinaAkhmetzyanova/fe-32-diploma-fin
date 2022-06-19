@@ -1,0 +1,124 @@
+.train-seats-header {
+  display: flex;
+  background-color: #f7f6f6;
+}
+
+.train-seats-header__left {
+  display: flex;
+  align-items: center;
+  flex-basis: 200px;
+  flex-grow: 1;
+
+  padding: 17px 0 17px 35px;
+}
+
+.train-seats-header__left-icon-container {
+  display: flex;
+
+  width: 30px;
+  height: 30px;
+  border: 2px solid #ffa800;
+  border-radius: 50%;
+}
+
+.train-seats-header__icon {
+  display: block;
+  margin: auto;
+  fill: #ffa800;
+}
+
+.train-seats-header__text-container {
+  margin-left: 27px;
+}
+
+.train-seats-header__train-number {
+  color: #3e3c41;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: bold;
+}
+
+.train-seats-header__train-properties {
+  margin-top: 5px;
+}
+
+.train-seats-header__train-property {
+  color: #292929;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: normal;
+  text-transform: capitalize;  
+}
+
+.train-seats-header__middle {
+  display: flex;
+  align-items: center;
+  flex-basis: 480px;
+
+  padding: 17px 20px 17px 36px;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.train-seats-header__middle-from {
+  width: 150px;
+}
+
+.train-seats-header__arrow {
+  display: block;
+  margin-left: 41px;
+  margin-right: 54px;
+
+  fill: rgba(255, 168, 0, 0.79);
+}
+
+.train-seats-header__arrow_mirror {
+  transform: rotate(180deg);
+}
+
+.train-seats-header__time {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.train-seats-header__date {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 700;
+}
+
+.train-seats-header__city {
+  color: #292929;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.train-seats-header__station {
+  color: #928f94;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.train-seats-header__right {
+  display: flex;
+  align-items: center;
+  flex-basis: 237px;
+
+  padding-left: 35px;
+}
+
+.train-seats-header__icon-clock {
+  fill: #ffa800;
+}
+
+.train-seats-header__duration {
+  margin-left: 10px;
+
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+}

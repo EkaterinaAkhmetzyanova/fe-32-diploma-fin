@@ -1,0 +1,443 @@
+.edit-passenger {
+  border: 1px solid #c4c4c4;
+  background-color: white;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.edit-passenger__collapsed {
+  display: flex;
+  align-items: center;
+
+  padding: 33px 40px 32px 23px;
+}
+
+.edit-passenger__collapsed_gray {
+  background-color: #f9f9f9;
+}
+
+.edit-passenger__button-collapse {
+  position: relative;
+
+  width: 32px;
+  height: 32px;
+  border: 2px solid #ffa800;
+  border-radius: 50%; 
+}
+
+.edit-passenger__button-collapse::before {
+  content: "";
+  position: absolute;
+  left: 7px;
+  right: 7px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  border-top: 2px solid #ffa800; 
+}
+
+.edit-passenger__button-collapse::after {
+  content: "";
+  position: absolute;
+  top: 7px;
+  bottom: 7px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  border-left: 2px solid #ffa800; 
+}
+
+.edit-passenger__button-collapse:hover {
+  border-color: transparent;
+}
+
+.edit-passenger__button-collapse_minus {
+  border-color: #928f94;
+}
+
+.edit-passenger__button-collapse_minus::before {
+  border-color: #928f94;  
+}
+
+.edit-passenger__button-collapse_minus::after {
+  display: none;
+}
+
+.edit-passenger__title {
+  margin-left: 18px;
+
+  color: #292929;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: normal;
+}
+
+.edit-passenger__button-close {
+  position: relative;
+
+  margin-left: auto;
+  width: 12px;
+  height: 12px;
+}
+
+.edit-passenger__button-close::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: rotate(-45deg);
+
+  border-top: 2px solid #928f94;
+}
+
+.edit-passenger__button-close::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: rotate(45deg);
+
+  border-top: 2px solid #928f94;
+}
+
+.edit-passenger__form {
+  padding-top: 38px;
+  border-top: 1px dashed #928f94;
+}
+
+.edit-passenger__ago-container {
+  position: relative;
+  width: 280px;
+  margin-left: 36px;
+}
+
+.edit-passenger__input {
+  display: block;
+
+  width: 100%;
+  margin-top: 12px;
+  padding: 10px 13px;
+  border: 1px solid #928f94;
+  border-radius: 5px;
+
+  color: #292929;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: normal;
+}
+
+.edit-passenger__input::placeholder {
+  color: #c4c4c4;
+}
+
+.edit-passenger__ago {
+  margin-top: 0;
+}
+
+.edit-passsenger__listbox {
+  background-image: url("./triangle.svg");
+  background-repeat: no-repeat;
+  background-size: 12px 5px;
+  background-position: right 21px center;
+
+  cursor: pointer;
+}
+
+.edit-passenger__list {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+
+  min-width: 100%;
+  width: max-content;
+  border-radius: 5px;
+  background-color: #f4f3f6;
+
+  list-style: none;
+}
+
+.edit-passenger__list-item {
+  padding: 10px 13px;
+
+  color: #292929;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: normal;
+
+  cursor: pointer;
+}
+
+.edit-passenger__list-item:not(:first-child) {
+  border-top: 1px solid #c4c4c4;
+}
+
+.edit-passenger__list-item:hover {
+  color: white;
+  background-color: #ffca62;
+}
+
+.edit-passenger__name-section {
+  display: flex;
+  padding: 45px 0 0 36px;
+}
+
+.edit-passenger__label {
+  display: block;
+
+  color: #928f94;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: normal;
+}
+
+.edit-passenger__last-name {
+  width: 280px;
+}
+
+.edit-passenger__error {
+  border-color: rgba(255, 61, 0, 0.76);
+  color: rgba(255, 61, 0, 0.8);
+}
+
+.edit-passenger__first-name {
+  width: 280px;
+  margin-left: 25px;
+}
+
+.edit-passenger__patronymic {
+  width: 280px;
+  margin-left: 25px;
+}
+
+.edit-passenger__data-section {
+  display: flex;
+  padding: 52px 0 0 36px;
+}
+
+.edit-passenger__gender {
+  width: 204px;
+}
+
+.edit-passenger__gender-selector {
+  display: flex;
+
+  margin-top: 12px;
+  border: 1px solid #928f94;
+  border-radius: 5px;
+}
+
+.edit-passenger__gender-item {
+  width: 50%;
+  padding: 7px 0 6px 0;
+
+  color: black;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+
+  cursor: pointer;
+}
+
+.edit-passenger__gender-item:not(:first-child) {
+  border-left: 1px solid #928f94;
+}
+
+.edit-passenger__gender-item_active {
+  background-color: #ffa800;
+}
+
+.edit-passenger__birthday {
+  width: 240px;
+  margin-left: 35px;
+}
+
+.edit-passenger__options-section {
+  padding: 45px 0 31px 36px;
+}
+
+.edit-passenger__label-checkbox {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+
+  width: fit-content;
+
+  cursor: pointer;
+}
+
+.edit-passenger__label-checkbox:not(:first-child) {
+  margin-top: 30px;
+}
+
+.edit-passenger__label-checkbox::before {
+  content: "";
+  position: absolute;
+
+  width: 28px;
+  height: 28px;
+  border: 1px solid #928f94;
+  border-radius: 5px;
+}
+
+.edit-passenger__label-checkbox_checked {
+  color: #ffa800;
+}
+
+.edit-passenger__label-checkbox_checked::before {
+  border-color: #ffa800;
+
+  background-image: url("./check-mark.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+
+.edit-passenger__checkbox {
+  display: block;
+
+  width: 28px;
+  height: 28px;
+  margin-right: 20px;
+
+  opacity: 0;
+  cursor: pointer;
+}
+
+.edit-passenger__document-data-section {
+  display: flex;
+
+  padding: 40px 0 31px 36px;
+  border-top: 1px dashed #928f94;
+  border-bottom: 1px dashed #928f94;
+}
+
+.edit-passenger__document-type {
+  position: relative;
+}
+
+.edit-passenger__document-type_passport {
+  width: 205px;
+}
+
+.edit-passenger__document-type_sertificate {
+  width: 444px;
+}
+
+.edit-passenger__list_document-type {
+  top: 29px;
+}
+
+.edit-passenger__passport-series {
+  position: relative;
+
+  width: 205px;
+  margin-left: 35px;
+}
+
+.edit-passenger__input_passport-series {
+  letter-spacing: 8px;
+}
+
+.edit-passenger__input_passport-series::placeholder {
+  background-image: url("./dashed.svg");
+  background-repeat: no-repeat;
+  background-size: 128px 1px;
+  background-position: left bottom;
+}
+
+.edit-passenger__passport-number {
+  width: 205px;  
+  margin-left: 35px;
+}
+
+.edit-passenger__input_passport-number::placeholder {
+  background-image: url("./dashed.svg");
+  background-repeat: repeat-x;
+  background-size: 128px 1px;
+  background-position: left bottom;
+}
+
+.edit-passenger__input_passport-number {
+  letter-spacing: 8px;
+}
+
+.edit-passenger__sertificate-number {
+  width: 230px;
+  margin-left: 35px;  
+}
+
+.edit-passenger__input_sertificate::placeholder {
+  background-image: url("./dashed.svg");
+  background-repeat: repeat-x;
+  background-size: 70px 1px;
+  background-position: left bottom;
+}
+
+.edit-passenger__state-section {
+  display: flex;
+  align-items: center;
+
+  height: 118px;
+  padding: 0 30px 0 24px;
+}
+
+.edit-passenger__state-section_error {
+  background-color: rgba(255, 61, 0, 0.38);
+}
+
+.edit-passenger__state-section_ready {
+  background-color: #b2f6a1;
+}
+
+.edit-passenger__state-text-container {
+  margin-left: 15px;
+
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: normal;
+}
+
+.edit-passenger__state-text-ready {
+  color: white;
+}
+
+.edit-passenger__state-text-error {
+  color: #292929;
+}
+
+.edit-passenger__state-text-error_bold {
+  margin-left: 0.3em;
+  font-weight: 700;
+}
+
+.edit-passenger__button-save {
+  margin-left: auto;
+  padding: 11px 25px 11px 25px;
+  border: 1px solid #292929;
+  border-radius: 5px;
+
+  color: #292929;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: bold;
+}
+
+.edit-passenger__button-save:hover {
+  color: #ffa800;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.edit-passenger__button-save:active {
+  border-color: #ffa800;
+  color: #292929;
+  background-color: #ffa800;
+
+  filter: none;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+

@@ -1,0 +1,62 @@
+.trains-params {
+  background-color: #3e3c41;
+}
+
+.trains-params__dates {
+  padding: 43px 36px 33px 29px;
+}
+
+.trains-params__date-title {
+  display: block;
+
+  color: white;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: normal;  
+}
+
+.trains-params__date-title:not(:first-child) {
+  padding-top: 26px;
+}
+
+.trains-params__date-container {
+  position: relative;
+  margin-top: 14px;
+}
+
+.side-date-input__button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+}
+
+.trains-params__options {
+  padding: 29px 34px 26px 0;
+  border-top: 1px solid #e5e5e5;
+}
+
+.trains-params__option:not(:first-child) {
+  margin-top: 36px;
+}
+
+.trains-params__price {
+  padding: 37px 34px 63px 32px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.trains-params__price-title {
+  color: white;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: normal;
+}
+
+.trains-params__price-range-bar {
+  margin-top: 32px;
+  padding: 0 12px;
+}
+
+.trains-params__times {
+  border-top: 1px solid #e5e5e5;
+}

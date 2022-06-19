@@ -1,0 +1,49 @@
+.train-seats {
+  border: 1px solid #c4c4c4;
+  background-color: white;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.train-seats__return {
+  display: flex;
+  align-items: stretch;
+  padding: 36px 24px 32px 19px;
+}
+
+.train-seats__return_mirror {
+  justify-content: flex-end;
+}
+
+.train-seats__return-icon {
+  display: block; 
+  fill: #ffa800;
+}
+
+.train-seats__return-icon_mirror {
+  transform: rotate(180deg);
+}
+
+.train-seats__return-button {
+  margin-left: 10px;
+  padding: 16px 34px 0 34px;
+  border: 1px solid #292929;
+  border-radius: 5px;
+
+  color: #292929;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: bold;
+}
+
+.train-seats__return-button:hover {
+  color: #ffa800;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.train-seats__return-button:active {
+  border: 1px solid #ffa800;
+  color: #292929;
+  background-color: #ffa800;
+  filter: none;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}

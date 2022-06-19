@@ -1,0 +1,61 @@
+.seats-count {
+  padding: 40px 0 49px 0;
+  border-bottom: 1px dashed #c4c4c4;
+}
+
+.seats-count__title {
+  padding-left: 20px;
+
+  color: #292929;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: bold;
+}
+
+.seats-count__types-list {
+  display: flex;
+  padding-top: 25px;
+}
+
+.seats-count__types-item {
+  flex-basis: 33%;
+
+  padding: 20px 41px 60px 35px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.seats-count__types-item:last-child {
+  flex-grow: 1;
+}
+
+.seats-count__types-item:hover {
+  background-color: #f7f6f6;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.seats-count__types-item_active {
+  border-color: rgba(255, 168, 0, 0.79);
+}
+
+.seats-count__type-count {
+  padding: 16px 17px;
+  border: 1px solid #928f94;
+  border-radius: 5px;
+
+  color: #292929;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: normal;
+
+  background-color: white;
+}
+
+.seats-count__type-description {
+  padding-top: 25px;
+
+  color: black;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: normal;
+}

@@ -1,0 +1,230 @@
+.travel-details-train__collapsed {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 0;
+}
+
+.travel-details-train__arrow-neg {
+  display: block;
+  fill: #ffa800;
+}
+
+.travel-details-train__arrow-neg_mirror {
+  transform: rotate(180deg);
+}
+
+.travel-details-train__title {
+  margin-left: 12px;
+
+  color: white;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: bold;  
+}
+
+.travel-details-train__title-date {
+  align-self: flex-end;
+  margin-left: 19px;
+  margin-bottom: 4px;
+
+  color: white;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: normal;  
+}
+
+.travel-details-train__title-date_backward {
+  margin-left: 11px;
+}
+
+.travel-details-train__button {
+  position: relative;
+
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+  border: 2px solid white;
+  border-radius: 5px; 
+}
+
+.travel-details-train__button::before {
+  content: "";
+  position: absolute;
+  left: 22%;
+  right: 22%;
+  top: 50%;
+  transform: translateY(-50%);
+
+  border-top: 2px solid white; 
+}
+
+.travel-details-train__button::after {
+  content: "";
+  position: absolute;
+  top: 22%;
+  bottom: 22%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  border-left: 2px solid white;
+}
+
+.travel-details-train__button:hover {
+  border-color: #fcdc9d;
+}
+
+.travel-details-train__button:hover::before {
+  border-color: #fcdc9d;  
+}
+
+.travel-details-train__button:hover::after {
+  border-color: #fcdc9d;  
+}
+
+.travel-details-train__button_minus {
+  border-color: #c4c4c4;  
+}
+
+.travel-details-train__button_minus::before {
+  border-color: #c4c4c4;  
+}
+
+.travel-details-train__button_minus::after {
+  display: none;  
+}
+
+.travel-details-train__full {
+  padding: 26px 0 61px 0;
+}
+
+.travel-details-train__number {
+  display: flex;
+  justify-content: space-between;
+}
+
+.travel-details-train__number-left {
+  color: #e5e5e5;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: normal;
+}
+
+.travel-details-train__number-right {
+  color: white;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: bold;
+}
+
+.travel-details-train__name {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 17px;
+}
+
+.travel-details-train__name-left {
+  color: #e5e5e5;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: normal;
+}
+
+.travel-details-train__name-right {
+  max-width: 50%;
+
+  color: white;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: bold;
+  text-align: right;
+  text-transform: capitalize;
+  ;
+}
+
+.travel-details-train__duration {
+  margin-top: 46px;
+
+  color: #e5e5e5;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.travel-details-train__times {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 3px;
+
+  color: white;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: bold;
+}
+
+.travel-details-train__arrow {
+  display: block;
+  fill: #ffa800;
+}
+
+.travel-details-train__arrow_mirror {
+  transform: rotate(180deg);
+}
+
+.travel-details-train__dates {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 6px;
+
+  color: #928f94;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: normal;
+}
+
+.travel-details-train__cities {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 22px;
+
+  color: white;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+
+.travel-details-train__city-left {
+  max-width: 50%;
+}
+
+.travel-details-train__city-right {
+  max-width: 50%;
+  text-align: right;
+}
+
+.travel-details-train__stations {
+  display: flex;
+  justify-content: space-between;
+
+  color: #928f94;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: normal; 
+}
+
+.travel-details-train__station-left {
+  max-width: 50%;
+}
+
+.travel-details-train__station-right {
+  max-width: 50%;
+  text-align: right;
+}

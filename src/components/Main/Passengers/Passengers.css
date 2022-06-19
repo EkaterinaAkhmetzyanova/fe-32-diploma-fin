@@ -1,0 +1,60 @@
+.passengers {
+  background-color: #e5e5e5;
+}
+
+.passengers__main {
+  display: flex;
+  justify-content: space-between;
+  padding: 95px 257px 140px 259px;
+}
+
+.passengers__left {
+  width: 360px;
+}
+
+.passengers__right {
+  width: 960px;
+}
+
+.passengers__edit-passenger:not(:first-child) {
+  margin-top: 45px;
+}
+
+.passengers__add-passenger {
+  margin-top: 45px;
+}
+
+.passengers__button {
+  display: block;
+  width: 222px;
+  height: 60px;
+  margin: 103px 0 0 auto;
+  padding-top: 17px;
+  text-align: center;
+  border: 1px solid #928f94;
+  border-radius: 5px;
+
+  color: white;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  background-color: #928f94;
+}
+
+.passengers__button_active {
+  border: 1px solid #ffa800;
+  background-color: #ffa800;
+}
+
+.passengers__button_active:hover {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);  
+}
+
+.passengers__button_active:active {
+  color: #ffa800;
+  background-color: transparent;
+  box-shadow: none;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));  
+}

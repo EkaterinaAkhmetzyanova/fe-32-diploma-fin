@@ -1,0 +1,68 @@
+.seats {
+  background-color: #e5e5e5;
+}
+
+.seats__main {
+  display: flex;
+  justify-content: space-between;
+  padding: 95px 256px 122px 258px;
+}
+
+.seats__left {
+  width: 360px;
+}
+
+.seats__right {
+  width: 960px;
+}
+
+.seats__title {
+  color: #292929;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.seats__train-seats {
+  margin-top: 29px;
+}
+
+.seats__train-seats:first-of-type {
+  margin-top: 60px;
+}
+
+.seats__button {
+  display: block;
+  width: 222px;
+  height: 60px;
+  margin: 102px 0 0 auto;
+  padding-top: 17px;
+  text-align: center;
+  border: 1px solid #928f94;
+  border-radius: 5px;
+
+  color: white;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  background-color: #928f94;
+}
+
+.seats__button_active {
+  border: 1px solid #ffa800;
+  background-color: #ffa800;  
+}
+
+.seats__button_active:hover {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);  
+}
+
+.seats__button_active:active {
+  color: #ffa800;
+  background-color: transparent;
+  box-shadow: none;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));  
+}

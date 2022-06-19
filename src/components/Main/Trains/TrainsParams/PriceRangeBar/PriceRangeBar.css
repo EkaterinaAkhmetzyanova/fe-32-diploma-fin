@@ -1,0 +1,66 @@
+.price-range-bar {
+  position: relative;
+
+  height: 20px;
+  border: 1px solid #c4c4c4;
+  border-radius: 8px;
+}
+
+.price-range-bar__range {
+  position: absolute;
+  top: -1px;
+  bottom: -1px;
+
+  border-radius: 8px;
+  background-color: #ffa800;
+}
+
+.price-range-bar__range_disabled {
+  background-color: #c4c4c4;
+}
+
+.price-range-bar__handle {
+  position: absolute;
+  top: 50%;
+
+  width: 24px;
+  height: 24px; 
+  border-radius: 50%; 
+  background-color: white;
+
+  cursor: pointer;
+}
+
+.price-range-bar__handle-min {
+  left: 0;
+  transform: translate(-50%, -50%);  
+}
+
+.price-range-bar__handle-max {
+  right: 0;
+  transform: translate(50%, -50%);  
+}
+
+.price-range-bar__handle-title {
+  position: absolute;
+  top: -1.4em;
+  left: 50%;
+  transform: translateX(-50%); 
+
+  color: #e5e5e5;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: normal;
+}
+
+.price-range-bar__handle-value {
+  position: absolute;
+  bottom: -1.5em;
+  left: 50%;
+  transform: translateX(-50%);  
+
+  color: #e5e5e5;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: normal;  
+}

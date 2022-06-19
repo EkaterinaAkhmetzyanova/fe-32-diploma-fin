@@ -1,0 +1,314 @@
+.coach-properties__header {
+  display: flex;
+}
+
+.coach-properties__label {
+  width: 190px;
+  height: 161px;
+  padding: 35px 0 0 37px;
+
+  background-color: #ffd98f;
+}
+
+.coach-properties__index {
+  position: relative;
+
+  color: #292929;
+  font-size: 72px;
+  line-height: 84px;
+  font-weight: bold;
+}
+
+.coach-properties__index::after {
+  content: "вагон";
+
+  position: absolute;
+  left: 5px;
+  bottom: -15px;
+
+  color: #292929;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: normal;
+}
+
+.coach-properties__seats {
+  margin-left: 85px;
+  padding-top: 33px;
+  width: 242px;
+}
+
+.coach-properties__seats-all-title {
+  color: #928f94;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: normal;
+}
+
+.coach-properties__seats-all-count {
+  margin-left: 0.5em;
+  color: black;
+}
+
+.coach-properties__seats-title {
+  margin-top: 21px;
+
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: normal;
+}
+
+.coach-properties__seats-count {
+  margin-left: 0.5em;
+  font-weight: bold; 
+}
+
+.coach-properties__prices {
+  padding-top: 33px;
+  width: 200px;
+}
+
+.coach-properties__prices-title {
+  color: #928f94;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: normal;
+}
+
+.coach-properties__price {
+  margin-top: 21px;
+
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: bold;
+}
+
+.coach-properties__currency {
+  margin-left: 0.5em;
+  color: #928f94;
+  font-weight: normal; 
+}
+
+.coach-properties__service {
+  padding-top: 33px;
+}
+
+.coach-properties__service-title {
+  color: #928f94;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: normal;
+}
+
+.coach-propertis__service-title_light {
+  margin-left: 0.6em;
+  
+  color: #c4c4c4;
+  text-transform: uppercase;
+}
+
+.coach-properties__options {
+  display: flex;
+  margin-top: 17px;
+
+  list-style: none;
+}
+
+.coach-properties__button {
+  position: relative;
+
+  display: flex;
+  width: 36px;
+  height: 34px;
+
+  border: 1px solid #292929;
+  border-radius: 5px;
+}
+
+.coach-properties__button_included {
+  border-color: #fcdc9d;
+  background-color: #fcdc9d;
+}
+
+.coach-properties__button_enabled {
+  cursor: pointer;
+}
+
+.coach-properties__button_selected {
+  border-color: #fdb935;
+  background-color: #fdb935;
+}
+
+.coach-properties__button_enabled:hover {
+  border-color: #292929;
+  background-color: #ffa800;
+}
+
+.coach-properties__button:not(:first-child) {
+  margin-left: 13px;
+}
+
+.coach-properties__button-icon {
+  margin: auto;
+  fill: #928f94;
+}
+
+.coach-properties__button-icon_enabled {
+  fill: #292929;
+}
+
+.coach-properties__button-icon_selected {
+  fill: #f4f2f6; 
+}
+
+.coach-properties__button-hint {
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  transform: translate(-50%, 100%);
+
+  min-width: 84px;
+  padding: 8px 13px;
+  border-radius: 5px;
+
+  color: #292929;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: normal;
+  text-align: center;
+
+  background-color: #e5e5e5;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.coach-properties__button-hint::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, -50%) rotate(45deg);
+
+  width: 4px;
+  height: 4px;
+  background-color: #e5e5e5;
+}
+
+.coach-properties__map-container {
+  position: relative;
+
+  height: 283px;
+  padding-top: 69px;
+}
+
+.coach-properties__hint {
+  position: absolute;
+  top: 0;
+  right: 42px;
+
+  max-width: 200px;
+  padding: 16px;
+  border-radius: 5px;
+
+  color: #292929;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: normal;
+
+  background-color: #f3f3f3;
+}
+
+.coach-properties__map {
+  position: relative;
+
+  width: 921px;
+  height: 145px;
+  margin: 0 auto;
+
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.coach-properties__map_1 {
+  background-image: url(class1.png);
+}
+
+.coach-properties__map_2 {
+  background-image: url(class2.png);
+}
+
+.coach-properties__map_3 {
+  background-image: url(class3.png);
+}
+
+.coach-properties__map_4 {
+  background-image: url(class4.png); 
+}
+
+.coach-properties__map-label {
+  position: absolute;
+  top: 0px;
+  left: 40px;
+
+  width: 33px;
+  height: 25px;
+  padding-top: 2px;
+
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+
+  background-color: #333333;
+}
+
+.coach-properties__map-seat {
+  position: absolute;
+
+  border: 2px solid #cccccc;
+
+  color: #ececec;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+
+  background-color: #cccccc;
+}
+
+.coach-properties__map-seat_available {
+  border-color: #f2f2f2;
+  color: black;
+  background-color: #f2f2f2;
+
+  cursor: pointer;
+}
+
+.coach-properties__map-seat_selected {
+  border-color: #ffa800;  
+}
+
+.coach-properties__map-seat_child {
+  border-color: red;  
+}
+
+.coach-properties__map-seat_parent {
+  border-color: blue;
+}
+
+.coach-properties__sum-price {
+  position: absolute;
+  right: 38px;
+  bottom: 20px;
+
+  color: #ffa800;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: bold;
+}
+
+.coach-properties__sum-price-currency {
+  margin-left: 0.5em;
+  color: #928f94;
+  font-weight: normal; 
+}
+
+

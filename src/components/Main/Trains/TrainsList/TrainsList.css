@@ -1,0 +1,79 @@
+.trains-list__menu {
+  display: flex;
+  justify-content: space-between;
+
+  color: #928f94;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: normal;
+}
+
+.trains-list__menu-count {
+  width: 450px;
+}
+
+.trains-list__menu-sort-value-container {
+  position: relative;
+}
+
+.trains-list__menu-sort-value {
+  padding: 0 0.5em;
+  color: #3e3c41;
+  cursor: pointer;
+}
+
+.trains-list__menu-sort-list {
+  position: absolute;
+  top: -0.3em;
+  left: 0;
+  
+  list-style: none;
+  background-color: #f7f5f9;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.trains-list__menu-sort-list-item {
+  padding: 0.3em 0.5em 0.5em 0.5em;
+  cursor: pointer;
+}
+
+.trains-list__menu-sort-list-item:not(:first-child) {
+  border-top: 1px solid #e5e5e5;
+}
+
+.trains-list__menu-sort-list-item:hover {
+  color: white;
+  background-color: #ffca62;
+}
+
+.trains-list__menu-sort-value:hover {
+  color: white;
+  background-color: #ffca62;
+}
+
+.trains-list__menu-limit-title {
+  margin-left: auto;
+}
+
+.trains-list__menu-sort-title {
+  margin-right: 0.1em;
+}
+
+.trains-list__menu-limit-value {
+  margin-left: 0.3em;
+  padding: 0 0.1em;
+  cursor: pointer;
+}
+
+.trains-list__menu-limit-value_active {
+  color: #3e3c41; 
+}
+
+.trains-list__menu-limit-value:hover {
+  color: white;
+  background-color: #ffca62;
+}
+
+.trains-list__list {
+  margin-top: 47px;
+}

@@ -1,0 +1,17 @@
+.trains {
+  background-color: #e5e5e5;
+}
+
+.trains__main {
+  display: flex;
+  justify-content: space-between;
+  padding: 95px 256px 193px 258px;
+}
+
+.trains__left {
+  width: 360px;
+}
+
+.trains__right {
+  width: 960px;
+}

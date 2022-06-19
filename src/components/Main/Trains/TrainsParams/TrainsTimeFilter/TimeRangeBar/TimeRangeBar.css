@@ -1,0 +1,54 @@
+.time-range-bar {
+  position: relative;
+
+  height: 10px;
+  border: 1px solid #c4c4c4;
+  border-radius: 8px;
+}
+
+.time-range-bar__range {
+  position: absolute;
+  top: -1px;
+  bottom: -1px;
+
+  border-radius: 8px;
+  background-color: #ffa800;
+}
+
+.time-range-bar__range_disabled {
+  background-color: #c4c4c4;
+}
+
+.time-range-bar__handle {
+  position: absolute;
+  top: 50%;
+
+  width: 18px;
+  height: 18px; 
+  border-radius: 50%; 
+  background-color: white;
+
+  cursor: pointer;
+}
+
+.time-range-bar__handle-min {
+  left: 0;
+  transform: translate(-50%, -50%);  
+}
+
+.time-range-bar__handle-max {
+  right: 0;
+  transform: translate(50%, -50%);  
+}
+
+.time-range-bar__handle-value {
+  position: absolute;
+  bottom: -2em;
+  left: 50%;
+  transform: translateX(-50%);  
+
+  color: #e5e5e5;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: normal;  
+}

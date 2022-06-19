@@ -1,0 +1,47 @@
+.coach-select__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 18px 0 35px;
+
+  background-color: rgba(255, 168, 0, 0.44);
+}
+
+.coach-select__title {
+  padding: 12px 0 9px 0;
+
+  color: #292929;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: normal;
+}
+
+.coach-select__number {
+  margin-left: 8px;
+  padding-top: 7px;
+
+  color: #2d2b2f;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700; 
+
+  cursor: pointer;
+}
+
+.coach-select__number_selected {
+  color: white;
+}
+
+.coach-select__numbering {
+  margin-left: auto;
+  padding-top: 13px;
+
+  color: #292929;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: normal;
+}
+
+.coach-select__coach + .coach-select__coach {
+  padding-top: 33px;
+  border-top: 1px dashed #c4c4c4;
+}

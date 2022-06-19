@@ -1,0 +1,28 @@
+.social-media {
+  margin-top: 44px;
+}
+
+.social-media__title {
+  color: white;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 500;
+}
+
+.social-media__list {
+  display: flex;
+  margin-top: 23px;
+  list-style-type: none;
+}
+
+.social-media__list-item:not(:first-child) {
+  margin-left: 48px;
+}
+
+.social-media__icon {
+  fill: #e5e5e5;
+}
+
+.social-media__icon:active {
+  fill: #ffca62;
+}

@@ -1,0 +1,155 @@
+.passengers-confirmation {
+  border: 1px solid #c4c4c4;
+  background-color: white;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.passengers-confirmation__title {
+  padding: 27px 30px 31px 30px;
+  border-bottom: 1px solid #928f94;
+
+  color: #292929;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: normal;
+}
+
+.passengers-confirmation__body {
+  display: flex;
+}
+
+.passengers-confirmation__left {
+  flex-basis: 650px;
+  flex-grow: 1;
+}
+
+.passengers-confirmation__list {
+  padding: 31px 0 59px 0;
+}
+
+.passengers-confirmation__list-item {
+  display: flex;
+  padding: 31px 0 41px 0;
+}
+
+.passengers-confirmation__list-item:not(:first-child) {
+  border-top: 1px dashed #e5e5e5; 
+}
+
+.passengers-confirmation__list-item-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  flex-basis: 156px;
+}
+
+.passengers-confirmation__icon {
+  display: block;
+  fill: #ffa800;
+}
+
+.passengers-confirmation__list-item-title-text {
+  margin-top: 18px;
+
+  color: #292929;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: normal;
+}
+
+.passengers-confirmation__list-item-body {
+  flex-basis: 500px;
+  flex-grow: 1;
+}
+
+.passengers-confirmation__list-item-name {
+  color: #292929;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: normal;
+}
+
+.passengers-confirmation__list-item-text {
+  margin-top: 8px;
+
+  color: #928f94;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: normal;
+}
+
+.passengers-confirmation__list-item-text:nth-child(2) {
+  margin-top: 14px;
+}
+
+.passengers-confirmation__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  flex-basis: 283px;
+  padding: 0 21px 23px 27px;
+  border-left: 1px dashed #e5e5e5;
+}
+
+.passengers-confirmation__total {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.passengers-confirmation__total-title {
+  color: #292929;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: normal;
+}
+
+.passengers-confirmation__price {
+  margin-left: auto;
+
+  color: #292929;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: bold;
+}
+
+.passengers-confirmation__currency {
+  margin-left: 0.3em;
+
+  color: #928f94;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: normal;
+}
+
+.passengers-confirmation__button {
+  display: block;
+  width: 100%;
+  margin-top: 30px;
+  padding: 4px 0 5px 0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #292929;
+  border-radius: 5px;
+
+  color: #292929;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.passengers-confirmation__button:hover {
+  color: #ffa800;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.passengers-confirmation__button:active {
+  border-color: #ffa800;
+  color: #292929;
+  background-color: #ffa800;
+  filter: none;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}

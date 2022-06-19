@@ -1,0 +1,38 @@
+.select-trains-page {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 142px;
+}
+
+.select-trains-page__button {
+  display: block;
+  width: 85px;
+  height: 75px;
+  border: 2px solid #c4c4c4;
+  border-radius: 5px;
+
+  color: #928f94;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: bold;
+}
+
+.select-trains-page__button:not(:first-child) {
+  margin-left: 35px;
+}
+
+.select-trains-page__button:hover {
+  border-color: #ffa800;
+  color: #ffa800;
+}
+
+.select-trains-page__button_active {
+  border-color: #ffa800;
+  color: white;
+  background-color: #ffa800;
+}
+
+.select-trains-page__button_active:hover {
+  color: white;
+  background-color: #ffa800;
+}

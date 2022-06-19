@@ -1,0 +1,52 @@
+.coach-type {
+  padding-top: 30px;
+}
+
+.coach-type__title {
+  padding-left: 20px;
+
+  color: #292929;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: bold;
+}
+
+.coach-type__list {
+  display: flex;
+  margin-top: 23px;
+  padding-bottom: 124px;
+  list-style: none;
+}
+
+.coach-type__list_active {
+  padding-bottom: 26px;
+}
+
+.coach-type__item {
+  width: 170px;
+  text-align: center;
+}
+
+.coach-type__icon {
+  display: block;
+  margin: 0 auto;
+  fill: #e5e5e5;
+  cursor: pointer;
+}
+
+.coach-type__icon_active {
+  fill: #ffa800;
+}
+
+.coach-type__name {
+  margin-top: 23px;
+
+  color: #918f94;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: normal;
+}
+
+.coach-type__name_active {
+  color: #ffa800;
+}

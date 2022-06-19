@@ -1,0 +1,113 @@
+.ticket-search-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  width: 730px;
+  margin: 0 232px 0 0;
+  padding: 0 24px 52px 0;
+
+  background-color: rgba(41, 41, 41, 0.8);
+}
+
+.ticket-search-form_run {
+  width: 1490px;
+  margin: 115px auto 0 auto;
+  padding: 0 45px 79px 0;
+  background-color: rgba(41, 41, 41, 0.69);
+}
+
+.ticket-search-form__label {
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 300;
+  color: white;
+}
+
+.ticket-search-form__label:nth-of-type(1) {
+  margin-top: 84px;
+}
+
+.ticket-search-form__label:nth-of-type(2) {
+  margin-top: 61px;
+}
+
+.ticket-search-form__label_run:nth-of-type(1) {
+  margin-top: 28px;
+}
+
+.ticket-search-form__label_run:nth-of-type(2) {
+  margin-top: 28px;
+  margin-left: 36px;
+}
+
+.ticket-search-form__input-container {
+  position: relative;
+  width: 323px;
+  margin-top: 15px;
+}
+
+.ticket-search-form__input-container:nth-of-type(2) {
+  margin-left: 36px;
+}
+
+.date-input__datepicker {
+  box-sizing: border-box;
+  width: 322px;
+  height: 60px;
+  padding-left: 21px;
+  padding-top: 19px;
+  padding-bottom: 11px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 3px;
+}
+
+.date-input__button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 18px;
+}
+
+.ticket-search-form__button-invert {
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin: 0 6px 18px 6px;
+}
+
+.ticket-search-form__button {
+  display: block;
+  width: 323px;
+  margin-top: 97px;
+  padding: 17px 0 13px 0;
+  border: 1px solid #ffa800;
+  border-radius: 5px;
+  text-align: center;
+
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: bold;
+
+  text-transform: uppercase;
+  color: #292929;
+  background-color: #ffa800;
+}
+
+.ticket-search-form__button:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ticket-search-form__button:active {
+  color: #ffa800;
+  background-color: transparent;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.ticket-search-form__button_run {
+  margin-top: 47px;
+}

@@ -1,0 +1,201 @@
+.trains-list-item {
+  border: 1px solid #c4c4c4;
+  background-color: white;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.trains-list-item:not(:first-child) {
+  margin-top: 50px;
+}
+
+.trains-list-item__title {
+  padding: 27px 30px 31px 30px;
+  border-bottom: 1px solid #928f94;
+
+  color: #292929;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: normal;
+}
+
+.trains-list-item__body {
+  display: flex;
+}
+
+.trains-list-item__left {
+  flex-basis: 150px;
+  flex-grow: 1;
+  padding: 32px 0;
+  background-color: #e4e0e9;
+}
+
+.trains-list-item__icon-container {
+  display: flex;
+
+  width: 86px;
+  height: 86px;
+  margin-left: 42px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.trains-list-item__icon {
+  display: block;
+  margin: auto;
+  fill: white;
+}
+
+.trains-list-item__train-number {
+  width: 86px;
+  margin: 17px 0 0 42px;
+  text-align: center;
+
+  color: #3e3c41;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+.trains-list-item__train-properties {
+  margin: 15px 0 0 25px;
+}
+
+.trains-list-item__train-property {
+  color: #292929;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+
+.trains-list-item__middle {
+  display: flex;
+  flex-basis: 480px;
+  padding: 54px 39px 0 39px;
+}
+
+.trains-list-item__middle-from {
+  width: 115px;
+}
+
+.trains-list-item__middle-way {
+  width: 125px;
+  text-align: center;
+}
+
+.trains-list-item__time {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.trains-list-item__date {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 700;
+}
+
+.trains-list-item__city {
+  color: #292929;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.trains-list-item__station {
+  color: #928f94;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.trains-list-item__duration {
+  margin-top: 3px;
+
+  color: #c4c4c4;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: normal;
+}
+
+.trains-list-item__arrow {
+  margin-top: 10px;
+  fill: rgba(255, 168, 0, 0.79);
+}
+
+.trains-list-item__arrow_mirror {
+  transform: rotate(180deg);
+}
+
+.trains-list-item__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  flex-basis: 283px;
+  padding: 37px 21px 23px 27px;
+  border-left: 1px dashed #e5e5e5;
+}
+
+.trains-list-item__seats-info {
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.trains-list-item__train-class-seats-info:not(:first-child) {
+  margin-top: 24px; 
+}
+
+.trains-list-item__option-icons {
+  margin: auto 7px 0 0;
+}
+
+.trains-list-item__button {
+  display: block;
+  width: 100%;
+  margin-top: 19px;
+  padding: 4px 0 5px 0;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: bold;
+}
+
+.trains-list-item__button_return {
+  border-color: #292929;
+  color: #292929;
+}
+
+.trains-list-item__button_return:hover {
+  color: #ffa800;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.trains-list-item__button_return:active {
+  border-color: #ffa800;
+  color: #292929;
+  background-color: #ffa800;
+  filter: none;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.trains-list-item__button_next {
+  border-color: #ffa800;
+  color: white;
+  background-color: #ffa800;
+}
+
+.trains-list-item__button_next:hover {
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.trains-list-item__button_next:active {
+  color: #ffa800;
+  background-color: transparent;
+  filter: none;
+}

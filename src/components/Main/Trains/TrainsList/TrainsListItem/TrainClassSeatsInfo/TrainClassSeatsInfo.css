@@ -1,0 +1,48 @@
+.train-class-seats-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.train-class-seats-info__class-name {
+  width: 91px;
+
+  color: #3e3c41;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: normal;
+}
+
+.train-class-seats-info__seats-count {
+  color: #ffa800;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 500;
+}
+
+.train-class-seats-info__before-price {
+  margin-left: auto;
+
+  color: #928f94;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: normal;
+}
+
+.train-class-seats-info__price {
+  margin-left: 5px;
+
+  color: #2d2b2f;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: bold;
+}
+
+.train-class-seats-info__after-price {
+  margin-left: 5px;
+
+  color: #928f94;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: normal;
+}
