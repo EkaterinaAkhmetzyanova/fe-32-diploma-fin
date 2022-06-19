@@ -27,7 +27,7 @@ export default function TrainSeats(props) {
     });
 
     if (result) {
-      history.push(process.env.PUBLIC_URL + "/run/trains");
+      history.push("/run/trains");
     }
   };
 
@@ -50,7 +50,7 @@ export default function TrainSeats(props) {
           <use xlinkHref={icons + "#arrow-negative-big"} />
         </svg>
         <Link
-          to={process.env.PUBLIC_URL + "/run/trains"}
+          to={"/run/trains"}
           className="train-seats__return-button"
           onClick={returnToTrains}
         >

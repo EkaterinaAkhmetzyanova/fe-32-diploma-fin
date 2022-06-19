@@ -71,7 +71,7 @@ export default function PassengersConfirmation() {
             <p className="passengers-confirmation__currency">&#x20bd;</p>
           </div>
           <Link
-            to={process.env.PUBLIC_URL + "/run/passengers"}
+            to="/run/passengers"
             className="passengers-confirmation__button"
           >
             Изменить

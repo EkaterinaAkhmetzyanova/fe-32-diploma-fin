@@ -195,7 +195,7 @@ export default function Seats() {
             />
           </div>
           <Link
-            to={process.env.PUBLIC_URL + "/run/passengers"}
+            to="/run/passengers"
             className={
               "seats__button" + (isNextEnabled ? " seats__button_active" : "")
             }

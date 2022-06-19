@@ -124,7 +124,7 @@ export default function Completion() {
                 </div>
               ))}
             </div>
-            <Link to={process.env.PUBLIC_URL} className="completion-button">
+            <Link to="/" className="completion-button">
               Вернуться на главную
             </Link>
           </div>

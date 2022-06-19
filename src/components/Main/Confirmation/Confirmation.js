@@ -37,7 +37,7 @@ export default function Confirmation() {
     );
 
     if (response.ok) {
-      history.push(process.env.PUBLIC_URL + "/run/completion");
+      history.push("/run/completion");
     } else {
       httpErrorBox(setPopup, response);
     }
@@ -76,7 +76,7 @@ export default function Confirmation() {
             <PaymentConfirmation />
           </div>
           <Link
-            to={process.env.PUBLIC_URL + "/run/completion"}
+            to="/run/completion"
             className="confirmation__button confirmation__button_active"
             onClick={goToNext}
           >

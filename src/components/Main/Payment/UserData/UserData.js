@@ -122,7 +122,7 @@ export default function UserData() {
     setOrderInfo(newOrderInfo);
     localStorage.setItem("orderInfo", JSON.stringify(newOrderInfo));
 
-    history.push(process.env.PUBLIC_URL + "/run/confirmation");
+    history.push("/run/confirmation");
   };
 
   return (

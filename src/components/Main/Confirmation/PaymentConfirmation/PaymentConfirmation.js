@@ -19,10 +19,7 @@ export default function PaymentConfirmation() {
           </p>
         </div>
         <div className="payment-confirmation__right">
-          <Link
-            to={process.env.PUBLIC_URL + "/run/payment"}
-            className="payment-confirmation__button"
-          >
+          <Link to="/run/payment" className="payment-confirmation__button">
             Изменить
           </Link>
         </div>

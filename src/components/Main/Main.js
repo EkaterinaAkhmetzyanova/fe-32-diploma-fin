@@ -24,31 +24,13 @@ export default function Main() {
         }
       >
         <Switch>
-          <Route path="/" component={HomePage} />
-          <Route
-            path={process.env.PUBLIC_URL + "/run/trains"}
-            component={Trains}
-          />
-          <Route
-            path={process.env.PUBLIC_URL + "/run/seats"}
-            component={Seats}
-          />
-          <Route
-            path={process.env.PUBLIC_URL + "/run/passengers"}
-            component={Passengers}
-          />
-          <Route
-            path={process.env.PUBLIC_URL + "/run/payment"}
-            component={Payment}
-          />
-          <Route
-            path={process.env.PUBLIC_URL + "/run/confirmation"}
-            component={Confirmation}
-          />
-          <Route
-            path={process.env.PUBLIC_URL + "/run/completion"}
-            component={Completion}
-          />
+          <Route exact path="/" component={HomePage} />
+          <Route path="/run/trains" component={Trains} />
+          <Route path="/run/seats" component={Seats} />
+          <Route path="/run/passengers" component={Passengers} />
+          <Route path="/run/payment" component={Payment} />
+          <Route path="/run/confirmation" component={Confirmation} />
+          <Route path="/run/completion" component={Completion} />
         </Switch>
       </div>
     </Fragment>

@@ -48,7 +48,7 @@ export default function TrainsListItem(props) {
     });
 
     if (result) {
-      history.push(process.env.PUBLIC_URL + "/run/trains");
+      history.push("/run/trains");
     }
   };
 
@@ -73,7 +73,7 @@ export default function TrainsListItem(props) {
         ? await loadSeats(_id, backwardTrain._id)
         : await loadSeats(forwardTrain._id, _id);
       if (result) {
-        history.push(process.env.PUBLIC_URL + "/run/seats");
+        history.push("/run/seats");
       }
     }
   };

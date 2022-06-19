@@ -103,7 +103,7 @@ export default function Passengers() {
             </div>
           )}
           <Link
-            to={process.env.PUBLIC_URL + "/run/payment"}
+            to="/run/payment"
             className={
               "passengers__button" +
               (isNextEnabled ? " passengers__button_active" : "")

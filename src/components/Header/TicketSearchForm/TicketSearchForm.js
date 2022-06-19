@@ -114,7 +114,7 @@ export default function TicketSearchForm(props) {
       return;
     }
 
-    history.push(process.env.PUBLIC_URL + "/run/trains");
+    history.push("/run/trains");
     setFormState(initialFormState);
     setForwardTrain(null);
     setBackwardTrain(null);
