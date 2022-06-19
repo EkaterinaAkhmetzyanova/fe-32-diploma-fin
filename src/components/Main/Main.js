@@ -22,6 +22,7 @@ export default function Main() {
         className={
           "main__body" + (animation.loading ? " main__body_no-visible" : "")
         }
+        className="main__body"
       >
         <Switch>
           <Route
@@ -48,7 +49,7 @@ export default function Main() {
             path={process.env.PUBLIC_URL + "/run/completion"}
             component={Completion}
           />
-          <Route path={process.env.PUBLIC_URL} component={HomePage} />
+          <Route path="/" component={HomePage} />
         </Switch>
       </div>
     </Fragment>

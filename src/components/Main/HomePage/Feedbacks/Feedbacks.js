@@ -5,7 +5,7 @@ import data from "./data";
 
 export default function Feedbacks() {
   return (
-    <section className="feedbacks__slider" name="feedbacks" id="feedbacks">
+    <section className="feedbacks__slider" id="feedbacks">
       <h2 className="feedbacks__title">Отзывы</h2>
       <div className="feedbacks__items">
         <Carousel itemsToShow={2} showArrows={false}>

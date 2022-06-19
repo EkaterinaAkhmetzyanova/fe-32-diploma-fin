@@ -1,5 +1,4 @@
 import { useContext, useEffect } from "react";
-import "./HomePage.css";
 import AppContext from "AppContext";
 import About from "./About/About";
 import Description from "./Description/Description";
@@ -14,17 +13,8 @@ export default function HomePage() {
 
   return (
     <main className="home-page">
-      <a className="home-page__anchor" href="." name="about">
-        anchor
-      </a>
       <About />
-      <a className="home-page__anchor" href="." name="description">
-        anchor
-      </a>
       <Description />
-      <a className="home-page__anchor" href="." name="feedbacks">
-        anchor
-      </a>
       <Feedbacks />
     </main>
   );

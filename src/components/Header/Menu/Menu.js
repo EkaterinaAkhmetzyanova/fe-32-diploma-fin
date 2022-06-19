@@ -21,7 +21,7 @@ function Menu() {
           </NavLink>
         </li>
         <li className="header__nav-item">
-          <NavLink to="/#contacts" className="nav-link" href="/contacts.html">
+          <NavLink to="/#contacts" className="nav-link">
             Контакты
           </NavLink>
         </li>

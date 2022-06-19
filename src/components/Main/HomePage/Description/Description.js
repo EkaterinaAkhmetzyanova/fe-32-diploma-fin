@@ -20,7 +20,7 @@ export default function Description() {
   };
 
   return (
-    <div className="description" id="description">
+    <section className="description" id="description">
       <div className="description__top">
         <h2 className="description__title">Как это работает</h2>
         <button
@@ -48,6 +48,6 @@ export default function Description() {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 }
