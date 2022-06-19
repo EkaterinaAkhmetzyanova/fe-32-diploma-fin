@@ -48,7 +48,7 @@ export default function Main() {
             path={process.env.PUBLIC_URL + "/run/completion"}
             component={Completion}
           />
-          <Route path="/" component={HomePage} />
+          <Route path={process.env.PUBLIC_URL} component={HomePage} />
         </Switch>
       </div>
     </Fragment>

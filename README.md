@@ -1,5 +1,7 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/8rqi023nj3mgoebf?svg=true)](https://ci.appveyor.com/project/EkaterinaAkhmetzyanova/fe-32-diploma-fin)
 
+https://ekaterinaakhmetzyanova.github.io/fe-32-diploma-fin/
+
 # Дипломная работа к профессии frontend-разработчик (Система бронирования ЖД билетов)
 
 ### Краткое описание задачи дипломной работы:
