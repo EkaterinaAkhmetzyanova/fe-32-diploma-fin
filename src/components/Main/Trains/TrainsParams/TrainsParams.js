@@ -9,7 +9,7 @@ import "react-datepicker/dist/react-datepicker.css";
 import OptionCheckBox from "./OptionCheckBox/OptionCheckBox";
 import PriceRangeBar from "./PriceRangeBar/PriceRangeBar";
 import TrainsTimeFilter from "./TrainsTimeFilter/TrainsTimeFilter";
-import { dayInFirstPosition, dayInLastPosition } from "api/utils";
+import { dayInFirstPosition } from "api/utils";
 import calendar from "../../../Header/TicketSearchForm/calendar.svg";
 
 registerLocale("ru", ru);
@@ -310,9 +310,9 @@ export default function TrainsParams(props) {
               locale="ru"
               dateFormat="dd/MM/yyyy"
               // minDate={Date.now()}
-              selected={dateStart}
+              selected={dateEnd}
               placeholderText="ДД/ММ/ГГ"
-              onChange={(date) => setDateStart(date)}
+              onChange={(date) => setDateEnd(date)}
             />
             <div className="side-date-input__button">
               <img

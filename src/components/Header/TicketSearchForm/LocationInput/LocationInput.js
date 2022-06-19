@@ -1,7 +1,7 @@
 import { useState, useContext, Fragment } from "react";
 import PropTypes from "prop-types";
 import AppContext from "AppContext";
-import { infoBox, httpErrorBox } from "api/gui";
+import { httpErrorBox } from "api/gui";
 import { loadCities } from "api/http/loadCities";
 import buttonIcon from "./location.svg";
 import "./LocationInput.css";
