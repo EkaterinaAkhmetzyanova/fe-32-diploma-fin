@@ -289,25 +289,6 @@ export default function EditPassenger(props) {
               />
               ограниченная подвижность
             </label>
-            {isAdult && (
-              <label
-                className={
-                  "edit-passenger__label edit-passenger__label-checkbox" +
-                  (includeChild
-                    ? " edit-passenger__label-checkbox_checked"
-                    : "")
-                }
-              >
-                <input
-                  className="edit-passenger__checkbox"
-                  type="checkbox"
-                  name="include-child"
-                  checked={includeChild}
-                  onChange={() => setValue("includeChild", !includeChild)}
-                />
-                провоз ребёнка "без места"
-              </label>
-            )}
           </div>
           <div className="edit-passenger__document-data-section">
             <label

@@ -1,5 +1,5 @@
 {
-  "name": "fe-32-diploma-fin",
+  "name": "fe-32-diploma",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://ekaterinaakhmetzyanova.github.io/fe-32-diploma-fin/",
@@ -20,7 +20,8 @@
     "react-scripts": "4.0.3",
     "shortid": "^2.2.16",
     "styled-components": "^5.3.5",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.0.1",
+    "yarn": "^1.22.19"
   },
   "scripts": {
     "start": "react-scripts start",
