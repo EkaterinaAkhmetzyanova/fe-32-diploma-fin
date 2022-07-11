@@ -24,7 +24,6 @@ export default function EditPassenger(props) {
     gender,
     birthday,
     isDisability,
-    includeChild,
     documentType,
     passportSeries,
     passportNumber,
